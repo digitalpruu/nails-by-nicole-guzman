@@ -1,9 +1,9 @@
 const title = "Nails by Nicole Guzman";
-const email = "nstefany2301@gmail.com";
+const email = "Nstefany2301@gmail.com";
 const mensajeWhatsApp = encodeURIComponent(
-    "¡Hola! Estoy muy interesado en los servicios de manicura y pedicura de " + title + " y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!"
+    "¡Hola! Estoy interesado en conocer más sobre los servicios de " + title + " y me gustaría obtener más información. ¡Gracias!"
 );
-const numeroWhatsApp = ""; // No se proporcionó número de WhatsApp
+const numeroWhatsApp = ""; // No se proporcionó número
 
 const textos = {
     index: {
@@ -22,15 +22,15 @@ const textos = {
     },
     footer: {
         slogan: {
-            p1: "Deja que tus uñas brillen",
-            p2: "tanto como tú."
+            p1: "Deja que tus uñas brillen tanto como tú.",
+            p2: ""
         },
         address: "", // Información no proporcionada
-        phone: numeroWhatsApp || "", // Número de WhatsApp no proporcionado
+        phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/profile.php?id=61564897329273",
-        instagram: "https://www.instagram.com/nails_by_nicoleg?igsh=aHhlcGc4ZDc2bW1m",
-        whatsappLink:`https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
+        facebook: "https://www.facebook.com/profile.php?id=61564897329273", // Enlace a Facebook proporcionado
+        instagram: "https://www.instagram.com/nails_by_nicoleg?igsh=aHhlcGc4ZDc2bW1m", // Enlace a Instagram proporcionado
+        whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
     },
 };
 
