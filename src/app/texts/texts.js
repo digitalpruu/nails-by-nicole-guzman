@@ -3,7 +3,7 @@ const email = "Nstefany2301@gmail.com";
 const mensajeWhatsApp = encodeURIComponent(
     "¡Hola! Estoy interesado en conocer más sobre los servicios de " + title + " y me gustaría obtener más información. ¡Gracias!"
 );
-const numeroWhatsApp = ""; // No se proporcionó número
+const numeroWhatsApp = "3209104013"; // No se proporcionó número
 
 const textos = {
     index: {
